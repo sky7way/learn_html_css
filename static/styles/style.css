@@ -1,3 +1,13 @@
+* {
+    margin: 0;
+}
+
+body {
+    margin: 10px;
+    margin-top: 0;
+}
+/* content */
+
 .list-conteiner p {
     font-weight: bold;
     text-align: center;
@@ -5,6 +15,10 @@
 
 .italic {
     font-style: italic;
+}
+
+.inside-li {
+    list-style:none;
 }
 
 a {
@@ -18,7 +32,7 @@ a {
     padding-right: 20px;
 }
 
-.img-html {
+.html-conteiner {
     float: right;
     padding: 5px;
     border-style: solid;
@@ -26,7 +40,7 @@ a {
     margin-left: 10px;
 }
 
-.img-html>div {
+.html-conteiner div {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -34,4 +48,45 @@ a {
 
 .logo-html {
     max-width: 70px;
+    margin-top: 3px;
+}
+
+.html-conteiner p {
+    background-color: rgba(157, 218, 244, 0.798);
+    width: 270px;
+    text-align: center;
+}
+
+/* navigation panel */
+
+.nav-conteiner {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(157, 218, 244, 0.798);
+}
+
+.nav-conteiner ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-conteiner a {
+    display: block;
+    padding: 10px;
+    border-style: solid;
+    border-width: 0.5px;
+}
+
+.nav-conteiner input {
+    height: 25px;
+    margin-left: 5px;
+}
+
+@media (max-width: 900px) {
+    .nav-conteiner {
+        flex-direction: column;
+    }
 }

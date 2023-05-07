@@ -10,16 +10,70 @@
 </head>
 
 <body>
+
+    <div class="nav-conteiner">
+        <nav>
+            <ul>
+                <a href="#">
+                    <li>Статья</li>
+                </a>
+                <a href="#">
+                    <li>Обсуждения</li>
+                </a>
+            </ul>
+        </nav>
+        <nav>
+            <ul>
+                <a href="#">
+                    <li>Читать</li>
+                </a>
+                <a href="#">
+                    <li>Править</li>
+                </a>
+                <a href="#">
+                    <li>Править код</li>
+                </a>
+                <a href="#">
+                    <li>История</li>
+                </a>
+                <input type="text" placeholder="Поиск">
+            </ul>
+        </nav>
+    </div>
+
     <div>
         <h1>HTML</h1>
 
-        <div class="img-html">
+        <div class="html-conteiner">
+
             <div>
+                <p>HTML</p>
                 <img class="logo-html"
                     src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/80px-HTML5_logo_and_wordmark.svg.png"
                     alt="html_5">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/HTML.svg/274px-HTML.svg.png"
                     alt="html">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/HTML_logo.png/72px-HTML_logo.png"
+                    alt="html">
+            </div>
+
+            <div class="html-conteiner-info">
+                <div>
+                    <a href="#" target="_blank">Расширение</a>
+                    <span class="html">.html</span>
+                    <span class="htm">.htm</span>
+                </div>
+                <div>
+                    <a href="#" target="_blank">MIME</a><span>-тип</span>
+                    <span>text/html</span>
+                </div>
+                <div>
+                    <span>Разработчик</span>
+                    <a href="#" target="_blank">Консорциум Всемирной<br>паутины</a>
+                    <a href="#" target="_blank">Инженерный совет<br> Интернета</a>
+                    <span>и</span>
+                    <a href="#" target="_blank">WHATWG</a>
+                </div>
             </div>
         </div>
 
@@ -57,9 +111,9 @@
                 <li><a href="#">Версии</a></li>
                 <li><a href="#">Структура HTML-документа</a></li>
                 <li><a href="#">Рекомендуется</a>
-                    <ol>
-                        <li><a href="#">Семантические теги</a></li>
-                        <li><a href="#">Специальные символы</a></li>
+                    <ol class="inside-li">
+                        <li><span>5.1. </span><a href="#">Семантические теги</a></li>
+                        <li><span>5.1. </span><a href="#">Специальные символы</a></li>
                     </ol>
                 </li>
                 <li><a href="#">Браузерные войны</a></li>
